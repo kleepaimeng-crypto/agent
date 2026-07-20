@@ -37,3 +37,10 @@ Kubernetes,云原生部署与弹性,部署与可观测性,简称 K8s
 OpenTelemetry,Tracing 与可观测性,部署与可观测性,包含日志指标调用链和 Token 成本
 LoRA,模型微调,模型训练与算法,与 SFT QLoRA RLHF 区分原始词后归并
 vLLM,模型推理服务,模型训练与算法,与 SGLang TensorRT-LLM 归并为推理工程
+Transformer/Embedding,LLM 基础与表示原理,LLM 基础,用于理解模型结构与向量表示但不等同于模型训练
+LangChain/LlamaIndex,LLM 应用框架,LLM 基础,保留框架名称并根据具体职责归入 RAG 或 Agent 能力
+Tool Calling/API,Tool Calling,Tool Calling,工具调用与业务 API 接入合并观察
+SDK/API,AI 后端服务集成,后端与数据库,标准化 SDK 和服务接口属于工程集成能力
+分布式后端,高并发后端与中间件,后端与数据库,关注服务架构与业务承载能力
+Tracing/异步/降级,服务可靠性与可观测性,部署与可观测性,合并链路追踪稳定性和故障恢复信号
+Fine-tuning/蒸馏/RL,模型后训练,模型训练与算法,当前路线仅作为加分或相邻能力
