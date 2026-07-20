@@ -1,0 +1,39 @@
+﻿skill_raw,skill_normalized,ability_category,normalization_note
+Python,Python,编程与计算机基础,保留语言名称
+Java,Java,编程与计算机基础,保留语言名称
+Golang,Go,编程与计算机基础,统一为 Go
+C++,C++,编程与计算机基础,保留语言名称
+数据结构与算法,数据结构与算法,编程与计算机基础,计算机基础能力
+LLM API,模型 API 集成,LLM 基础,包含商业模型和开源模型服务调用
+大语言模型原理,LLM 基础与能力边界,LLM 基础,包含上下文机制和常见局限
+Prompt Engineering,Prompt 工程,Prompt 与上下文工程,含结构化提示和版本管理
+Context Engineering,上下文工程,Prompt 与上下文工程,含上下文压缩与组织
+Function Calling,Tool Calling,Tool Calling,与 Tool Use 归并
+Tool Use,Tool Calling,Tool Calling,与 Function Calling 归并
+ReAct,Agent 决策循环,Agent Loop,归入 Agent 基本执行机制
+Agent架构,Agent 核心架构,Agent Loop,含规划执行与终止控制
+Multi-Agent,多智能体协作,工作流编排,关注协作和任务分配而非框架名
+RAG,RAG 全链路,RAG 与检索,含解析切分召回生成
+GraphRAG,图增强检索,RAG 与检索,RAG 高级策略
+Hybrid Search,混合检索与重排,RAG 与检索,合并关键词向量检索和 rerank
+Milvus,向量数据库,RAG 与检索,与 Faiss PGVector Weaviate Chroma 归并
+Memory,状态与记忆,状态与记忆,含短期长期记忆和会话状态
+Checkpoint,任务持久化与恢复,状态与记忆,含状态恢复
+LangGraph,有状态 Agent 工作流,工作流编排,保留原始框架词并归并能力
+Dify,可视化工作流编排,工作流编排,与 Coze n8n Flowise 同类
+MCP,MCP 与工具协议,MCP 与外部集成,协议与外部系统接入
+A2A,Agent 间通信,MCP 与外部集成,多智能体协议能力
+Agent Evaluation,Agent 评估,Agent Evaluation,含任务成功率工具正确率和坏例分析
+RAG Evaluation,RAG 评估,Agent Evaluation,包含检索与回答质量
+权限控制,权限与安全边界,安全与权限,含审批鉴权沙箱和审计
+Prompt Injection,提示注入防护,安全与权限,Agent 特有安全能力
+FastAPI,Python Web 服务,后端与数据库,与 Flask Django Sanic 归入 Python 后端
+Spring Boot,Java 微服务后端,后端与数据库,与 Spring Cloud LangChain4j Spring AI 关联
+RESTful API,服务接口与系统集成,后端与数据库,包含 gRPC 和插件 API
+MySQL,关系型数据库,后端与数据库,与 PostgreSQL Oracle 归并
+Redis,缓存与消息中间件,后端与数据库,与 Kafka RocketMQ 等分别保留原始词
+Docker,容器化部署,部署与可观测性,与 Kubernetes 云原生关联
+Kubernetes,云原生部署与弹性,部署与可观测性,简称 K8s
+OpenTelemetry,Tracing 与可观测性,部署与可观测性,包含日志指标调用链和 Token 成本
+LoRA,模型微调,模型训练与算法,与 SFT QLoRA RLHF 区分原始词后归并
+vLLM,模型推理服务,模型训练与算法,与 SGLang TensorRT-LLM 归并为推理工程
