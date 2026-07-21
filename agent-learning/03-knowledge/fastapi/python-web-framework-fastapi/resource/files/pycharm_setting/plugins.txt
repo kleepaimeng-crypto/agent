@@ -1,0 +1,11 @@
+1. Github Copilot
+2. JetBrains AI Assistant
+3. Lingma - Alibaba Cloud Coding Assistant
+4. Translation
+5. Rainbow Brackets
+6.Key Promoter X
+7. Statistic
+8. .ignore
+9. Dracula Theme
+9. One Dark Theme
+10. Unocss
