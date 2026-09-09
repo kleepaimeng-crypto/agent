@@ -11,13 +11,13 @@ import time
 # 从.env文件中加载环境变量
 load_dotenv(override=True)
 
-CLOSEAI_API_KEY = os.getenv("CLOSEAI_API_KEY")
-CLOSEAI_BASE_URL = os.getenv("CLOSEAI_BASE_URL")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL")
 
 model = init_chat_model(
-    model="openai:gpt-5.4-mini",
-    api_key=CLOSEAI_API_KEY,
-    base_url=CLOSEAI_BASE_URL
+    model="deepseek:deepseek-v4-flash",
+    api_key=DEEPSEEK_API_KEY,
+    base_url=DEEPSEEK_BASE_URL
 )
 
 
